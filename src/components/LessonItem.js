@@ -2,7 +2,7 @@ const LessonItem = ({lesson}) => {
   return (
     <a href={lesson.url} target="_blank" rel="noreferrer">
       <div className="h-24 flex items-center justify-center bg-gray-700 transition duration-300 hover:bg-gray-500 hover:scale-x-105">
-        <div className="text-center w-[10%] text-xl">{lesson.icon}</div>
+        <div className="text-center w-20 text-xl">{lesson.icon}</div>
         <div>
           <div className="text-white font-bold">{lesson.title}</div>
           <div className="text-gray-300">{lesson.description}</div>
